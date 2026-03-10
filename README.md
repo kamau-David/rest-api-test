@@ -42,10 +42,3 @@ Welcome! This project is designed to help you learn the fundamentals of building
 - `PUT /api/products/:id`: Update a product by ID.
 - `DELETE /api/products/:id`: Delete a product by ID.
 
-## Learning Path
-
-1.  Start by examining `server.js` to see how the Express app is initialized and how middleware is used.
-2.  Look at `config/db.js` to understand how Mongoose connects to MongoDB.
-3.  Check `models/Product.js` to see how to define a schema.
-4.  Explore `controllers/productController.js` to learn how to interact with the database using Mongoose methods.
-5.  See how `routes/productRoutes.js` maps HTTP methods to controller functions.
